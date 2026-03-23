@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
       defaultValue: false
     }
   }, {
-    tableName: 'Tareas' // Asegura que coincida con tu DB
+    tableName: 'Tareas'
   });
   return Tarea;
 };
