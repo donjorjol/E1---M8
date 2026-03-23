@@ -8,7 +8,7 @@ const process = require('process');
 const basename = path.basename(__filename);
 const db = {};
 
-// Conexión directa usando las variables de tu archivo .env
+// Conexión directa usando las variables de archivo .env
 const sequelize = new Sequelize(
   process.env.DB_NAME,
   process.env.DB_USER,
